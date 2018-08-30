@@ -1,26 +1,29 @@
-# SixArm.com →<br>Python Pipfile
+# SixArm.com → Python →<br> Pipfile for pipenv packages
 
 This is our team's Python Pipfile for our favorite packages for our typical computers.
 
 Before we begin:
 
   * Install [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
-  * Install [pip](https://en.wikipedia.org/wiki/Pip_(package_manager))
+  * Install [Pipenv](https://github.com/pypa/pipenv)
+
+To use Pipenv to install dependencies for a project:
+
+    $ pipenv install
+
+To use Pipenv to install dependencies for a project, including development dependencies:s
+
+    $ pipenv install --dev
 
 
-## What is python?
+## What is Python?
 
 Python is an interpreted high-level programming language for general-purpose programming. ([wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language)))
 
 
-## What is pip?
+## What is Pipenv?
 
-pip is a package manager to install and manage software packages written in Python. ([wikipedia](https://en.wikipedia.org/wiki/Pip_(package_manager)))
-
-
-## Thanks
-
-* [20 Python libraries you can’t live without](https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/)
+Pipenv is a package manager tool. It automatically creates and manages a virtualenv for your projects, as well as adds/removes packages from your Pipfile as you install/uninstall packages. It also generates the file `Pipfile.lock`, which is used to produce deterministic builds. ([site](https://github.com/pypa/pipenv))
 
 
 ## Tracking

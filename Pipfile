@@ -1,8 +1,17 @@
+##
+# Pipfile file for our favorites
+##
+
 [source]
 
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
+
+
+[requires]
+
+python_version = "2.7"
 
 
 [dev-packages]
@@ -15,18 +24,243 @@ sphinx-rtd-theme = "*"
 [packages]
 
 flask = "*"
-cryptography = "*"
-celery = "*"
-psutil = "*"
-flask-sqlalchemy = "*"
-pymysql = "*"
-requests = "*"
-dicttoxml = "*"
-pyjwt = "*"
+
 flask-login = "*"
+
+cryptography = "*"
+
+celery = "*"
+
+psutil = "*"
+
+flask-sqlalchemy = "*"
+
+pymysql = "*"
+
+dicttoxml = "*"
+
+pyjwt = "*"
+
 redis = "*"
 
+# Graph (network) package
+altgraph = "*"
 
-[requires]
+# Create virtualenv built distributions
+bdist-mpkg = "*"
 
-python_version = "2.7"
+bonjour-py = "*"
+
+# Composable style cycles
+cycler = "*"
+
+funcsigs = "*"
+
+# Easy-to-use data handling for SQL data stores
+dataset = "*"
+
+# Mercurial-to-git bridge for version control
+hg-git = "*"
+
+idna = "*"
+
+# IPv4/IPv6 manipulation library
+ipaddress = "*"
+
+# Mach-O header analysis and editing
+macholib = "*"
+
+# Mercurial version control
+mercurial = "*"
+
+mock = "*"
+
+modulegraph = "*"
+
+ndg-httpsclient = "*"
+
+nose = "*"
+
+passlib = "*"
+
+pbr = "*"
+
+pip = "*"
+
+# Pelican static site generator
+pelican = "*"
+
+py2app = "*"
+
+pyasn1 = "*"
+
+pycparser = "*"
+
+pyOpenSSL = "*"
+
+pyparsing = "*"
+
+python-dateutil = "*"
+
+pytz = "*"
+
+setuptools = "*"
+
+six = "*"
+
+vboxapi = "*"
+
+virtualenv = "*"
+
+xattr = "*"
+
+zope.interface
+
+##
+# Language
+##
+
+# C-code Foreign Function Interface
+cffi = "*"
+
+# Cryptography recipes and primitives
+cryptography = "*"
+
+# Python 3.4 Enum backported
+enum34 = "*"
+
+##
+# Jobs
+##
+
+# Job library for caching, parallelizing, persistence
+joblib = "*"
+
+##
+# Command Line Interface
+##
+
+# Amazon Web Services (AWS) command line interface
+awscli = "*"
+
+# Amazon Web Services (AWS) shell for interactive commands
+aws-shell = "*"
+
+# Display progress bars for loops in code (prefer vs. progressbar2)
+tqdm = "*"
+
+# Progress bar (prefer tqdm)
+progressbar2 = "*"
+
+# Create command line interfaces in a composable way
+click = "*"
+
+# Python debugger (prefer vs. pdb)
+pudb = "*"
+
+##
+# GUI
+##
+
+# wxPython: cross-platform GUI toolkit (https://wxpython.org/)
+wxPython = "*"
+
+##
+# Serialization
+##
+
+# A better "pickle" to serialize objects to disk
+dill = "*"
+
+# Simplified object serialization
+marshmallow = "*"
+
+##
+# Networking
+##
+
+# Twisted: event-driven networking engine (https://twistedmatrix.com/)
+Twisted = "*"
+
+##
+# HTTP parsing & web scraping
+##
+
+# Parsing (prefer this when you need speed)
+lxml = "*"
+
+# Designed for convenient screen-scraping and messy parsing
+beautifulsoup = "*"
+
+# Requests: HTTP for Humans (http://www.python-requests.org/)
+requests = "*"
+
+# Web scraping (prefer vs. scrapy)
+pomp = "*"
+
+# Scrapy: scrape and extract data from websites (https://scrapy.org/) (prefer pomp)
+scrapy = "*"
+
+# Web scraping as simple and intuitive as possible
+requests_html 
+
+##
+# Images
+##
+
+# Pillow: the friendly fork of PIL, the Python Imaging Library (https://python-pillow.org/)
+pillow = "*"
+
+##
+# Data
+##
+
+# NumPy: scientific computing with data structures
+numpy = "*"
+
+# SciPy: library of algorithms and mathematical tools
+scipy = "*"
+
+# Pure Python NoSQL database
+tinydb = "*"
+
+# Simple data validation library (prefer vs. voluptuous)
+schema = "*"
+
+# Data validation library (prefer schema)
+voluptuous = "*"
+
+# Declarative parser (and builder) for binary data
+construct = "*"
+
+# Data structures and transformations
+schematics = "*"
+
+# Data analysis, time series, and statistics
+pandas = "*"
+
+# SQL database abstraction library
+sqlalchemy = "*"
+
+# Math plotting library
+matplotlib = "*"
+
+# Rapidly explore columnar data in the terminal
+visidata = "*"
+
+##
+# Geo
+##
+
+# Visualize geographic data
+folium = "*"
+
+# Geographic pandas extensions
+geopandas = "*"
+
+##
+# Fun
+##
+
+# PyGame: video game libraries for graphics and sound  (https://www.pygame.org/)
+pygame = "*"

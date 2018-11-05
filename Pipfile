@@ -259,6 +259,13 @@ folium = "*"
 geopandas = "*"
 
 ##
+# APIs
+##
+
+# GitHub API
+pygithub = "*"
+
+##
 # Fun
 ##
 

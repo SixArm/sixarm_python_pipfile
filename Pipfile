@@ -140,11 +140,14 @@ joblib = "*"
 # Command Line Interface
 ##
 
-# Amazon Web Services (AWS) command line interface
+# Amazon Web Services (AWS) command line interface (CIL)
 awscli = "*"
 
 # Amazon Web Services (AWS) shell for interactive commands
 aws-shell = "*"
+
+# Amazon Web Services (AWS) Elastic Beanstalk (EB) command line interface (CLI)
+awsebcli = "*"
 
 # Display progress bars for loops in code (prefer vs. progressbar2)
 tqdm = "*"

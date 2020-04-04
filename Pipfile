@@ -68,6 +68,9 @@ git-filter-repo = "*"
 # Mercurial-to-git bridge for version control
 hg-git = "*"
 
+# JSON converter for popular Unix commands
+jc = "*"
+
 idna = "*"
 
 # IPv4/IPv6 manipulation library

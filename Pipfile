@@ -214,7 +214,7 @@ pomp = "*"
 scrapy = "*"
 
 # Web scraping as simple and intuitive as possible
-requests_html 
+requests_html
 
 ##
 # Images
@@ -256,6 +256,9 @@ sqlalchemy = "*"
 
 # Math plotting library
 matplotlib = "*"
+
+# xlrd: Excel reader to export data from spreadsheets
+xlrd = "*"
 
 # Rapidly explore columnar data in the terminal
 visidata = "*"

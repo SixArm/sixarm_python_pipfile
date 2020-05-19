@@ -68,13 +68,16 @@ git-filter-repo = "*"
 # Mercurial-to-git bridge for version control
 hg-git = "*"
 
-# JSON converter for popular Unix commands
-jc = "*"
+# howdoi: instant coding answers via the command line
+howdoi = "*"
 
 idna = "*"
 
 # IPv4/IPv6 manipulation library
 ipaddress = "*"
+
+# JSON converter for popular Unix commands
+jc = "*"
 
 # Mach-O header analysis and editing
 macholib = "*"
